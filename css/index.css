@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/centurygothic.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/centurygothic_bold.ttf');
+    font-weight: 700;
+}
+
+body {
+    background-color: #0F1320;
+}
+
+.header_logo {
+    text-decoration: none;
+    color: white
+}
+
+.header_logo svg {
+    margin-right: 7.7px;
+}
+
+.header_logo span {
+    font-size: 32px;
+    font-family: 'Century Gothic';
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 36px 40px;
+}
+
+.header_links {
+    margin-left: 80px
+}
+
+.header_links li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.header_links li:last-child {
+    display: inline;
+    margin-right: 0;
+}
+
+.header_links li a {
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.header_auth {
+    margin-left:auto;
+}
+
+.btn_soft, .btn_secondary {
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    font-weight: 600;
+    background-color: unset;    
+}
+
+.btn_soft span, .btn_secondary span {
+    color: white;
+}
+
+.btn_soft {
+    border: none;
+    padding: 0 30px;
+}
+
+.btn_secondary {
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px solid #22A75D;
+}
+
+.banner {
+    margin-top: 180px;
+    display: flex;
+}
+
+.banner_info {
+    margin-left: 176px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info_p {
+    font-family: 'Century Gothic';
+    font-weight: 600;
+    font-size: 16px;
+
+    background: linear-gradient(0deg, #2B3087 0%, #00B4EC 81.99%), #FFD100;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
